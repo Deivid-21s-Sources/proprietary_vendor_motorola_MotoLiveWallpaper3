@@ -5,7 +5,9 @@ PRODUCT_SOONG_NAMESPACES += \
  
 PRODUCT_COPY_FILES += \
     vendor/motorola/MotoLiveWallpaper3/proprietary/system_ext/etc/permissions/afw-com.motorola.livewallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/afw-com.motorola.livewallpaper.xml \
+    vendor/motorola/MotoLiveWallpaper3/proprietary/system_ext/etc/permissions/feature-com.motorola.motolivewallpaper.stylize.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/feature-com.motorola.motolivewallpaper.stylize.xml \
     vendor/motorola/MotoLiveWallpaper3/proprietary/system_ext/etc/permissions/feature-com.motorola.motolivewallpaper3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/feature-com.motorola.motolivewallpaper3.xml \
+    vendor/motorola/MotoLiveWallpaper3/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.livewallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.livewallpaper \
     vendor/motorola/MotoLiveWallpaper3/proprietary/system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.livewallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.livewallpaper.xml
 
 $(call inherit-product, vendor/motorola/MotoSignatureApp/motosignatureapp.mk)
