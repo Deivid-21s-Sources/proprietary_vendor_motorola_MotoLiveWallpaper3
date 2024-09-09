@@ -1,15 +1,16 @@
 android_app_import {
-    name: "MotoLiveWallpaper3",
-    owner: "motorola",
-    apk: "proprietary/system_ext/priv-app/MotoLiveWallpaper3/MotoLiveWallpaper3.apk",
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    required: [
-        "MotoSignatureApp",
-    ],
-    system_ext_specific: true,
+	name: "MotoLiveWallpaper3",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/MotoLiveWallpaper3/MotoLiveWallpaper3.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	required: [
+		"MotoSignatureApp",
+	],
+	system_ext_specific: true,
 }
 
