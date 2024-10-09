@@ -8,9 +8,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-	required: [
-		"MotoSignatureApp",
-	],
 	system_ext_specific: true,
 }
 
